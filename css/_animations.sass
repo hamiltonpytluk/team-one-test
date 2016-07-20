@@ -1,0 +1,60 @@
+#carousel ul li
+  &.left-to-current,
+  &.left-to-right
+    left: -50px
+
+  &.left-to-current,
+  &.right-to-current
+    -webkit-transform: perspective(900px)
+    -webkit-transform-style: preserve-3d
+    -webkit-perspective-origin: 100% 30%
+    -webkit-transform: rotateY(60deg)
+    -moz-transform: perspective(900px)
+    -moz-transform-style: preserve-3d
+    -moz-perspective-origin: 100% 30%
+    -moz-transform: rotateY(60deg)
+    -o-transform: perspective(900px)
+    -o-transform-style: preserve-3d
+    -o-perspective-origin: 100% 30%
+    -o-transform: rotateY(60deg)
+    transform: perspective(900px)
+    transform-style: preserve-3d
+    perspective-origin: 100% 30%
+    transform: rotateY(60deg)
+
+  &.current-to-left,
+  &.current-to-right
+    top: 8px
+    width: 464px
+    z-index: 3
+
+  &.current-to-right
+    left: 220px
+
+  &.current-to-left
+    left: 90px
+
+  &.right-to-current,
+  &.right-to-left
+    left: 490px
+
+  &.left-to-right,
+  &.right-to-left
+    top: 36px
+    width: 300px
+    -webkit-transform: perspective(900px)
+    -webkit-transform-style: preserve-3d
+    -webkit-perspective-origin: 100% 30%
+    -webkit-transform: rotateY(45deg)
+    -moz-transform: perspective(900px)
+    -moz-transform-style: preserve-3d
+    -moz-perspective-origin: 100% 30%
+    -moz-transform: rotateY(45deg)
+    -o-transform: perspective(900px)
+    -o-transform-style: preserve-3d
+    -o-perspective-origin: 100% 30%
+    -o-transform: rotateY(45deg)
+    transform: perspective(900px)
+    transform-style: preserve-3d
+    perspective-origin: 100% 30%
+    transform: rotateY(45deg)

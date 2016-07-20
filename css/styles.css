@@ -1,0 +1,172 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Rokkitt';
+#carousel {
+  position: relative; }
+  #carousel a {
+    display: block;
+    position: absolute;
+    height: 177px;
+    width: 154px;
+    z-index: 5;
+    top: 36px; }
+    #carousel a.left-button {
+      left: 0px; }
+    #carousel a.right-button {
+      right: 0px; }
+  #carousel ul {
+    margin: 86px 0 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    list-style: none; }
+    #carousel ul li {
+      display: block;
+      width: 324px;
+      position: absolute;
+      box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.06);
+      top: 36px;
+      font-family: "Roboto", sans-serif;
+      text-shadow: 1px 0 0 rgba(255, 255, 255, 0.9);
+      -webkit-transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease;
+      -moz-transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease;
+      -o-transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease;
+      transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease; }
+      #carousel ul li h3 {
+        position: absolute;
+        bottom: -45px;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        color: #656565;
+        opacity: 0;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      #carousel ul li span {
+        display: inline-block;
+        text-align: center;
+        font-size: 11px;
+        line-height: 20px;
+        color: #a1a1a1;
+        position: absolute;
+        bottom: -52px;
+        width: 100%;
+        opacity: 0;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      #carousel ul li .darken {
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transition: opacity 0.5s ease;
+        -moz-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease; }
+      #carousel ul li.current {
+        top: 0px;
+        left: 155px;
+        z-index: 3;
+        width: 454px; }
+        #carousel ul li.current h3, #carousel ul li.current span {
+          opacity: 1; }
+        #carousel ul li.current .darken {
+          opacity: 0; }
+      #carousel ul li.left {
+        left: 0;
+        z-index: 1; }
+      #carousel ul li.right {
+        left: 440px;
+        z-index: 2; }
+      #carousel ul li img {
+        width: 100%;
+        height: auto;
+        display: block; }
+        #carousel ul li img.shine {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 157px;
+          height: 113px; }
+
+body {
+  background: #e3e3e3 url(../img/background.jpg) no-repeat top center; }
+
+header {
+  font-family: "Rokkitt", serif;
+  text-align: center;
+  padding: 124px 0 0; }
+  header h1 {
+    font-size: 30px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    color: #545454;
+    font-weight: bold; }
+  header h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 18px 0 0;
+    padding: 0;
+    color: #989898;
+    font-weight: normal; }
+
+.wrap {
+  margin: 0 auto;
+  width: 764px; }
+
+#carousel ul li.left-to-current, #carousel ul li.left-to-right {
+  left: -50px; }
+#carousel ul li.left-to-current, #carousel ul li.right-to-current {
+  -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective-origin: 100% 30%;
+  -webkit-transform: rotateY(60deg);
+  -moz-transform: perspective(900px);
+  -moz-transform-style: preserve-3d;
+  -moz-perspective-origin: 100% 30%;
+  -moz-transform: rotateY(60deg);
+  -o-transform: perspective(900px);
+  -o-transform-style: preserve-3d;
+  -o-perspective-origin: 100% 30%;
+  -o-transform: rotateY(60deg);
+  transform: perspective(900px);
+  transform-style: preserve-3d;
+  perspective-origin: 100% 30%;
+  transform: rotateY(60deg); }
+#carousel ul li.current-to-left, #carousel ul li.current-to-right {
+  top: 8px;
+  width: 464px;
+  z-index: 3; }
+#carousel ul li.current-to-right {
+  left: 220px; }
+#carousel ul li.current-to-left {
+  left: 90px; }
+#carousel ul li.right-to-current, #carousel ul li.right-to-left {
+  left: 490px; }
+#carousel ul li.left-to-right, #carousel ul li.right-to-left {
+  top: 36px;
+  width: 300px;
+  -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective-origin: 100% 30%;
+  -webkit-transform: rotateY(45deg);
+  -moz-transform: perspective(900px);
+  -moz-transform-style: preserve-3d;
+  -moz-perspective-origin: 100% 30%;
+  -moz-transform: rotateY(45deg);
+  -o-transform: perspective(900px);
+  -o-transform-style: preserve-3d;
+  -o-perspective-origin: 100% 30%;
+  -o-transform: rotateY(45deg);
+  transform: perspective(900px);
+  transform-style: preserve-3d;
+  perspective-origin: 100% 30%;
+  transform: rotateY(45deg); }
+
+/*# sourceMappingURL=styles.css.map */
