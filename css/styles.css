@@ -26,10 +26,10 @@
       top: 36px;
       font-family: "Roboto", sans-serif;
       text-shadow: 1px 0 0 rgba(255, 255, 255, 0.9);
-      -webkit-transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease;
-      -moz-transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease;
-      -o-transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease;
-      transition: left 0.5s ease, top 0.5s ease, width 0.5s ease, transform 1s ease; }
+      -webkit-transition: left 0.4s ease, top 0.4s ease, width 0.4s ease, transform 1s ease;
+      -moz-transition: left 0.4s ease, top 0.4s ease, width 0.4s ease, transform 1s ease;
+      -o-transition: left 0.4s ease, top 0.4s ease, width 0.4s ease, transform 1s ease;
+      transition: left 0.4s ease, top 0.4s ease, width 0.4s ease, transform 1s ease; }
       #carousel ul li h3 {
         position: absolute;
         bottom: -45px;
@@ -39,10 +39,10 @@
         line-height: 20px;
         color: #656565;
         opacity: 0;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s; }
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
       #carousel ul li span {
         display: inline-block;
         text-align: center;
@@ -53,10 +53,10 @@
         bottom: -52px;
         width: 100%;
         opacity: 0;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s; }
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
       #carousel ul li .darken {
         height: 100%;
         width: 100%;
@@ -64,10 +64,10 @@
         position: absolute;
         top: 0;
         left: 0;
-        -webkit-transition: opacity 0.5s ease;
-        -moz-transition: opacity 0.5s ease;
-        -o-transition: opacity 0.5s ease;
-        transition: opacity 0.5s ease; }
+        -webkit-transition: opacity 0.4s ease;
+        -moz-transition: opacity 0.4s ease;
+        -o-transition: opacity 0.4s ease;
+        transition: opacity 0.4s ease; }
       #carousel ul li.current {
         top: 0px;
         left: 155px;
@@ -96,10 +96,10 @@
           width: 157px;
           height: 113px;
           opacity: 0.5;
-          -webkit-transition: opacity 0.5s ease;
-          -moz-transition: opacity 0.5s ease;
-          -o-transition: opacity 0.5s ease;
-          transition: opacity 0.5s ease; }
+          -webkit-transition: opacity 0.4s ease;
+          -moz-transition: opacity 0.4s ease;
+          -o-transition: opacity 0.4s ease;
+          transition: opacity 0.4s ease; }
 
 body {
   background: #e3e3e3 url(../img/background.jpg) no-repeat top center; }

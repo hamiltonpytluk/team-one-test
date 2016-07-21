@@ -22,7 +22,7 @@ $(document).ready(function(){
         $('.left-to-current').removeClass('left-to-current').addClass('current');
         $('.right-to-left').removeClass('right-to-left').addClass('left');
         $('.current-to-right').removeClass('current-to-right').addClass('right');
-      }, 500);
+      }, 400);
 
     } else if( $(this).hasClass('right-button') ){
 
@@ -35,7 +35,7 @@ $(document).ready(function(){
         $('.right-to-current').removeClass('right-to-current').addClass('current');
         $('.left-to-right').removeClass('left-to-right').addClass('right');
         $('.current-to-left').removeClass('current-to-left').addClass('left');
-      }, 500);
+      }, 400);
 
     }
 
