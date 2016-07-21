@@ -10,10 +10,10 @@ $(document).ready(function(){
   $('#carousel').on('click', 'a', function(e){
 
     e.preventDefault();
+    $('.left, .right').css('z-index','');
 
     if( $(this).hasClass('left-button') ){
 
-      $('.left, .right').css('z-index','');
       $('.left').removeClass('left').addClass('left-to-current');
       $('.right').removeClass('right').addClass('right-to-left');
       $('.current').removeClass('current').addClass('current-to-right');
@@ -26,7 +26,6 @@ $(document).ready(function(){
 
     } else if( $(this).hasClass('right-button') ){
 
-      $('.left, .right').css('z-index','');
       $('.left').removeClass('left').addClass('left-to-right').css('z-index','0');
       $('.right').removeClass('right').addClass('right-to-current');
       $('.current').removeClass('current').addClass('current-to-left').css('z-index','2');
