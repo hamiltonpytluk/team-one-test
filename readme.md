@@ -16,10 +16,23 @@ While the task was only to bring the supplied .PSD to life, there are some funct
 * __Infinite Slides__
 	* It would be nice — given the context and direction — to further develop a scalable model that wasn't locked into three slides
 * __Responsiveness__
-	* Allowing the carousel to work within both a tablet and mobile viewport — without being a zoomed-out desktop experience — would be a 'nice to have' 
+	* Allowing the carousel to work within both a tablet and mobile viewport — without being a zoomed-out desktop experience — would be a 'nice to have'
 
-## Browser Issues To Correct
-* __Safari__
-	* __8/9__ — There's an issue with the `.left` and `.right` `z-index` swaps that appear to only affect Safari.  I'm going to continue developing a hotfix for this, but in effor to provide a working sample immediately I felt it appropiate to ship with caveats 
-	
-	 
+## Browser Compatibility
+
+
+| Browser           | Status                     |
+|-------------------|----------------------------|
+| IE10              | :heavy_check_mark:         |
+| IE11              | :heavy_check_mark:         |
+| Edge              | :heavy_check_mark:         |
+| Safari 8          | :heavy_check_mark:         |
+| Safari 9          | :heavy_check_mark:         |
+| Chrome (OSX)      | :heavy_check_mark:         |
+| Chrome (Win)      | :heavy_check_mark:         |
+| Firefox (OSX)     | :heavy_check_mark:         |
+| Firefox (Win)     | :heavy_check_mark:         |
+| iPhone 5se        | :heavy_check_mark:         |
+| iPhone 6          | :heavy_check_mark:         |
+| iPhone 6s         | :heavy_check_mark:         |
+             

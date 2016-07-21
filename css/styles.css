@@ -121,52 +121,19 @@ header {
   width: 764px; }
 
 #carousel ul li.left-to-current, #carousel ul li.left-to-right {
-  left: -50px; }
-#carousel ul li.left-to-current, #carousel ul li.right-to-current {
-  -webkit-transform: perspective(900px);
-  -webkit-transform-style: preserve-3d;
-  -webkit-perspective-origin: 100% 30%;
-  -webkit-transform: rotateY(60deg);
-  -moz-transform: perspective(900px);
-  -moz-transform-style: preserve-3d;
-  -moz-perspective-origin: 100% 30%;
-  -moz-transform: rotateY(60deg);
-  -o-transform: perspective(900px);
-  -o-transform-style: preserve-3d;
-  -o-perspective-origin: 100% 30%;
-  -o-transform: rotateY(60deg);
-  transform: perspective(900px);
-  transform-style: preserve-3d;
-  perspective-origin: 100% 30%;
-  transform: rotateY(60deg); }
+  left: -70px; }
 #carousel ul li.current-to-left, #carousel ul li.current-to-right {
   top: 8px;
   width: 464px;
   z-index: 3; }
 #carousel ul li.current-to-right {
-  left: 220px; }
+  left: 260px; }
 #carousel ul li.current-to-left {
-  left: 90px; }
+  left: 40px; }
 #carousel ul li.right-to-current, #carousel ul li.right-to-left {
-  left: 490px; }
+  left: 510px; }
 #carousel ul li.left-to-right, #carousel ul li.right-to-left {
   top: 36px;
-  width: 300px;
-  -webkit-transform: perspective(900px);
-  -webkit-transform-style: preserve-3d;
-  -webkit-perspective-origin: 100% 30%;
-  -webkit-transform: rotateY(45deg);
-  -moz-transform: perspective(900px);
-  -moz-transform-style: preserve-3d;
-  -moz-perspective-origin: 100% 30%;
-  -moz-transform: rotateY(45deg);
-  -o-transform: perspective(900px);
-  -o-transform-style: preserve-3d;
-  -o-perspective-origin: 100% 30%;
-  -o-transform: rotateY(45deg);
-  transform: perspective(900px);
-  transform-style: preserve-3d;
-  perspective-origin: 100% 30%;
-  transform: rotateY(45deg); }
+  width: 280px; }
 
 /*# sourceMappingURL=styles.css.map */

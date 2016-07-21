@@ -1,5 +1,6 @@
 #carousel
   position: relative
+
   a
     display: block
     position: absolute
@@ -11,12 +12,14 @@
       left: 0px
     &.right-button
       right: 0px
+
   ul
     margin: 86px 0 0
     padding: 0
     width: 100%
     position: relative
     list-style: none
+
     li
       display: block
       width: 324px
@@ -29,6 +32,7 @@
       -moz-transition: left .5s ease, top .5s ease, width .5s ease, transform 1s ease
       -o-transition: left .5s ease, top .5s ease, width .5s ease, transform 1s ease
       transition: left .5s ease, top .5s ease, width .5s ease, transform 1s ease
+
       h3
         position: absolute
         bottom: -45px
@@ -42,6 +46,7 @@
         -moz-transition: all .5s
         -o-transition: all .5s
         transition: all .5s
+
       span
         display: inline-block
         text-align: center
@@ -56,6 +61,7 @@
         -moz-transition: all .5s
         -o-transition: all .5s
         transition: all .5s
+
       .darken
         height: 100%
         width: 100%
@@ -67,25 +73,32 @@
         -moz-transition: opacity .5s ease
         -o-transition: opacity .5s ease
         transition: opacity .5s ease
+
       &.current
         top: 0px
         left: 155px
         z-index: 3
         width: 454px
+
         h3, span
           opacity: 1
+
         .darken
           opacity: 0
+
       &.left
         left: 0
         z-index: 1
+
       &.right
         left: 440px
         z-index: 2
+
       img
         width: 100%
         height: auto
         display: block
+
         &.shine
           position: absolute
           top: 0
