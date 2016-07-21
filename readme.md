@@ -35,4 +35,6 @@ While the task was only to bring the supplied .PSD to life, there are some funct
 | iPhone 5se        | :heavy_check_mark:         |
 | iPhone 6          | :heavy_check_mark:         |
 | iPhone 6s         | :heavy_check_mark:         |
+
+_Windows browsers tested on Browserstack_
              
