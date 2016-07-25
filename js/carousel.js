@@ -14,26 +14,26 @@ $(document).ready(function(){
 
     if( $(this).hasClass('left-button') ){
 
-      $('.left').removeClass('left').addClass('left-to-current');
-      $('.right').removeClass('right').addClass('right-to-left');
-      $('.current').removeClass('current').addClass('current-to-right');
+      $('.left').removeClass().addClass('left-to-current');
+      $('.right').removeClass().addClass('right-to-left');
+      $('.current').removeClass().addClass('current-to-right');
 
       setTimeout(function(){
-        $('.left-to-current').removeClass('left-to-current').addClass('current');
-        $('.right-to-left').removeClass('right-to-left').addClass('left');
-        $('.current-to-right').removeClass('current-to-right').addClass('right');
+        $('.left-to-current').removeClass().addClass('current');
+        $('.right-to-left').removeClass().addClass('left');
+        $('.current-to-right').removeClass().addClass('right');
       }, 400);
 
     } else if( $(this).hasClass('right-button') ){
 
-      $('.left').removeClass('left').addClass('left-to-right').css('z-index','0');
-      $('.right').removeClass('right').addClass('right-to-current');
-      $('.current').removeClass('current').addClass('current-to-left').css('z-index','2');
+      $('.left').removeClass().addClass('left-to-right').css('z-index','0');
+      $('.right').removeClass().addClass('right-to-current');
+      $('.current').removeClass().addClass('current-to-left').css('z-index','2');
 
       setTimeout(function(){
-        $('.right-to-current').removeClass('right-to-current').addClass('current');
-        $('.left-to-right').removeClass('left-to-right').addClass('right');
-        $('.current-to-left').removeClass('current-to-left').addClass('left');
+        $('.right-to-current').removeClass().addClass('current');
+        $('.left-to-right').removeClass().addClass('right');
+        $('.current-to-left').removeClass().addClass('left');
       }, 400);
 
     }
